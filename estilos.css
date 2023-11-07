@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 20px;
+    height: 100px;
+    
+
+}
+
+.logo img{
+    color: white;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    
+}
+
+.barra{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+
+.barra li {
+    display: inline-block;
+    
+   
+}
+
+.barra a:hover{
+    color: lightblue;
+    
+
+}
+
+#index  {
+    height: 100vh;
+    background-color: grey;
+    background-image: url(media/kettlebells-2926339_1920.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.call{
+    background-color: rgba(128, 128, 128, 0.288);
+    width: 40%;
+    padding: 20px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+   
+
+}
+
+.call p{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.call a{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.call a:hover{
+    background-color: lightblue;
+}
+
+h1{
+    text-transform: uppercase;
+    color: orange;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* INDEX HTML final */
+
+#banner-wods{
+    height: 300px;
+    background-image: url(media/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#banner-wods h2{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+
+}
+.totalwods{
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.wods{
+    background-color: grey;
+    background-image: url(media/1.jpg);
+    background-size: cover;
+    padding: 30px;
+    margin: 40px;
+    height: 40%;
+    width: 20%;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.wods:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.wods1{
+    background-image: url(media/2.jpg);
+    background-size: cover;
+}
+.wods2{
+    background-image: url(media/3.jpg);
+    background-size: cover;
+}
+.wods3{
+    background-image: url(media/nueva\ foto1.jpg);
+    background-size: cover;
+}
+
+.wods4{
+    background-image: url(media/nueva\ foto.jpg);
+    background-size: cover;
+}
+
+.wods5{
+    background-image: url(media/nueva\ foto\ 3.jpg);
+    background-size: cover;
+}
+
+.wods h3{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.wods ol{
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+.wods p{
+    color: white;
+    font-weight: bold;
+}
+/* .wods li{
+    color: white;
+    text-align: center;
+    
+} */
+/* FINAL DE WODS */
+.ejercicios {
+    padding: 50px;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-style: oblique;
+    
+}
+
+.contenedor{
+    height: 2000px;
+    width: 100%;
+    background-color: rgb(170, 149, 149);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 20px 20px;
+    padding: 30px;
+
+}
+
+.prod{  
+    background-color:white;
+    border-radius: 30px;
+    box-sizing: content-box;
+    
+}
+
+.prod h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.prod p{
+    text-decoration: underline;
+    text-align: end;
+    padding-right: 10px;
+    padding: 20px;
+
+}
+
+.prod img{
+    height: 250px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+
+    
+}
+
+form{
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    padding: 50px 400px 50px 400px;
+    background-image: url(media/pexels-lukas-669578.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+form h4{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: white;
+}
+
+form input{
+    width: 100%;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+form textarea{
+    width: 100%;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+
+
+}
+
+form textarea::placeholder{
+    color: white;
+    text-align: center;
+}
+
+form #enviar{
+    background-color: grey  ;
+    font-size: 30px;
+    
+    border: none;   
+}
+
+.footer h4{
+    text-align: right;
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+    
+}
+
+
+
+
+.footer div a{
+    padding: 5px ;
+    padding-right: 30px;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+/* TRABAJO CON BOOTSTRAP EN TIENDA */
+
+.navbar-brand img{
+    color: white;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+
+
+}
+
+.navbar{
+    background-color: orange;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 20px !important;
+    
+}
+
+section{
+    background-color: grey;
+    padding-top: 30px;
+    
+}
+
+/* TRABAJO CON BOOTSRAP EN HOME */
+
+.bannner{
+    height: 600px;
+    background-image: url(media/kettlebells-2926339_1920.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bannner h1{
+    color: orange;
+}
+
+.carousel-inner{
+    height: 400px !important;
+    background-position: center;
+}
+
+#indextitulo{
+    text-align: center;
+    background-color: grey;
+
+}
+
